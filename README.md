@@ -23,7 +23,7 @@ $ npm install --save @nestjs/typeorm typeorm mysql
 $ npm install --save @nestjs/swagger swagger-ui-express
 
 
-& nest g resource products
+$ nest g resource products
  # ? What transport layer do you use? REST API
  # ? Would you like to generate CRUD entry points? Yes
 
@@ -264,6 +264,8 @@ export class AppService {
 ## Installation
 
 ```bash
+$ git clone https://github.com/jafarma/nestjs-example-api
+
 $ npm install
 ```
 
