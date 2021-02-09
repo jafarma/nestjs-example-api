@@ -13,10 +13,10 @@ async function bootstrap() {
   const port = env.server.port || 3333;
 
   const options = new DocumentBuilder()
-    .setTitle('Test API Docs')
-    .setDescription('Todo API for const')
+    .setTitle('Example API Docs')
+    .setDescription('Example API for test')
     .setVersion(config.getVersion())
-    .addTag('Test API')
+    .addTag('Example API')
     .addBearerAuth()
     .build();
   const document = SwaggerModule.createDocument(app, options);
