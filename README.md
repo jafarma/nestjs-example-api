@@ -2,7 +2,7 @@
 
 ## Description
 
-create a real world api with [Nest](https://github.com/nestjs/nest) framework TypeScript & typeorm & mysql with synchronize database on develop mode.
+create a CRUD api with [Nest](https://github.com/nestjs/nest) framework TypeScript & typeorm & mysql with synchronize database on develop mode.
 
 
 ![swagger demo](https://github.com/jafarma/nestjs-example-api/blob/master/assets/swagger.JPG?raw=true)
